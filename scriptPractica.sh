@@ -29,6 +29,16 @@
 
 # El comando "man" en la terminal normal es tu amigo si sabes algo de inglés y no te acuerdas de como usar un comando, pues es un manual. Se utiliza haciendo "man (nombre del comando)"
 
+# En condicionales como el "if", para comparar Strings solo existen las condiciones "==" ( es igual ) y "!=" ( no es igual )
+# Por otro lado, si lo que queremos es comparar números, podemos utilizar:
+# -lt (less than)
+# -le (less or equal)
+# -gt (greater than)
+# -ge (greater or equal)
+# -eq (equal)
+
+# Si lo que queremos es comprobar es si un archivo o directorio existe, utilizamos "-f" (file) y "-d" (directory), colocando estos parametros ANTES del nombre/ruta del archivo o directorio a comprobar (ej: if [[ -d nombredeArchivoORuta ]])
+
 menuCerrado=true # Creamos nuestra variable que controla nuestro bucle del menu
 listaParametros=() # Creamos una lista vacía donde guardaremos los parametros que le pasemos en la ejecución inicial ( bash scripPractica.sh parametroEjemplo1 parametroEjemplo2... )
 
