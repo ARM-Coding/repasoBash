@@ -39,7 +39,7 @@
 
 # Si lo que queremos es comprobar es si un archivo o directorio existe, utilizamos "-f" (file) y "-d" (directory), colocando estos parametros ANTES del nombre/ruta del archivo o directorio a comprobar (ej: if [[ -d nombredeArchivoORuta ]])
 
-# Para almacenar el resultado de un comando en una variable, utilizamos: (ej: miVariable=$comando)
+# Para almacenar el resultado de un comando en una variable, utilizamos: ( ej: miVariable=$(comando) )
 
 menuCerrado=true # Creamos nuestra variable que controla nuestro bucle del menu
 listaParametros=() # Creamos una lista vacía donde guardaremos los parametros que le pasemos en la ejecución inicial ( bash scripPractica.sh parametroEjemplo1 parametroEjemplo2... )
